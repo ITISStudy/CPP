@@ -15,11 +15,11 @@ int main(){
 	int k;
 	cin>>k;
 	while(k--){
-    cin>>a>>b>>p;
-	long long s=0;
-	for(int i=0;i<a.length();i++){
-		s=(s*10+(a[i]-'0'))%p;
-	}
-    cout<<ex(s,b)%p<<endl; 
-    }
+	    cin>>a>>b>>p;
+	    long long s=0;
+	    for(int i=0;i<a.length();i++){
+		 s=(s*10+(a[i]-'0'))%p;
+	    }
+    	    cout<<ex(s,b)%p<<endl; 
+    	}
 } 
